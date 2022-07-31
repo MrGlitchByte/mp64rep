@@ -1,3 +1,6 @@
 [submodule "GLideN64"]
 	path = GLideN64
 	url = https://github.com/gonetz/GLideN64.git
+[submodule "mupen64plus-core/libRetroReversing"]
+	path = mupen64plus-core/libRetroReversing
+	url = https://github.com/RetroReversing/libRetroReversing.git
