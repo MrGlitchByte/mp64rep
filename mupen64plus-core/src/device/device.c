@@ -35,6 +35,9 @@
 
 #define ARRAY_SIZE(x) (sizeof(x)/sizeof((x)[0]))
 
+//libRR start
+void cdl_log_memory_mappings(struct mem_mapping* mappings, uint32_t number_of_mappings);
+// libRR end
 
 static void read_open_bus(void* opaque, uint32_t address, uint32_t* value)
 {
